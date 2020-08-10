@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'n2c0i!=!aa)kbh0@!ignlzfe=c*@zyo_tpq9(3j72-d7o)+4ro'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['sonalipydjblog.herokuapp.com']
 
@@ -129,7 +129,7 @@ STATICFILES_DIRS = [
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
-LOGIN_REDIRECT_URL ='blog-home'
+LOGIN_REDIRECT_URL = 'blog-home'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
