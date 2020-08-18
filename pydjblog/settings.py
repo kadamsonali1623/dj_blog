@@ -161,3 +161,5 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'sonali22.kadam@gmail.com'
 EMAIL_HOST_PASSWORD = 'godavary16'
 django_heroku.settings(locals())
+ADMINS = [('sonalikadam', EMAIL_HOST_USER)]
+MANAGERS = ADMINS
